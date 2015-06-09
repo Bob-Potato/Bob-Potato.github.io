@@ -854,7 +854,7 @@
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			background-color: #737373;
+			background-color: #2400FF;
 		}
 
 		input[type="submit"]:active,
@@ -939,15 +939,15 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #e89980;
-			color: #ffffff !important;
+			background-color: #A81DA6;
+			color: #ffffff; !important;
 		}
 
 			input[type="submit"].special:hover,
 			input[type="reset"].special:hover,
 			input[type="button"].special:hover,
 			.button.special:hover {
-				background-color: #ecaa96;
+				background-color: #EC96EB
 			}
 
 			input[type="submit"].special:active,
@@ -1266,7 +1266,7 @@
 			#banner input[type="reset"]:hover,
 			#banner input[type="button"]:hover,
 			#banner .button:hover {
-				background-color: rgba(255, 255, 255, 0.1);
+				color: #E455E2;
 			}
 
 			#banner input[type="submit"]:active,
@@ -1280,8 +1280,8 @@
 			#banner input[type="reset"].special,
 			#banner input[type="button"].special,
 			#banner .button.special {
-				background: #fff;
-				color: #666 !important;
+				background: #A81DA6;
+				color: #FFB800 !important;
 			}
 
 /* Main */
