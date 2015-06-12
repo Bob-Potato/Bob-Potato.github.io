@@ -1266,7 +1266,7 @@
 			#banner input[type="reset"]:hover,
 			#banner input[type="button"]:hover,
 			#banner .button:hover {
-				color: #E455E2;
+				color: rgba(226, 21, 206, 0.075);
 			}
 
 			#banner input[type="submit"]:active,
