@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HTML5 Doodle Jump</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="/assets/js/prefixfree.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+
+      <canvas id="canvas">
+        Aww, your browser doesn't support HTML5!
+      </canvas>
+
+      <div id="mainMenu">
+        <h1>Doggie jump</h1>
+        <h3>using me,</h3>
+        <h3> <a href="https://www.google.com.hk/search?rlz=1C5CHFA_enHK604HK604&es_sm=119&biw=1440&bih=778&tbm=isch&q=free+hugs+meme&spell=1&sa=X&ved=0CBgQvwUoAGoVChMItKam052UxgIVAximCh0vHQ1-" target="_blank">Free hugs!</a></h3>
+  			<h3>and <a href="http://www.cutestpaw.com/articles/50-cute-puppies-make-your-girlfriend-smile/" target="_blank">PUPPIES!!!</a></h3>
+
+        <p class="info">
+          use
+          <span class="key left">←</span>
+          <span class="key right">→</span>
+          to move and space to (re) start...
+        </p>
+        <a class="button" href="javascript:init()">Play</a>
+      </div>
+
+      <div id="gameOverMenu">
+        <h1>u DEEAD!!</h1>
+        <h3 id="go_score">you scored 0 doggy bones</h3>
+
+        <a class="button" href="javascript:reset()">Restart</a>
+        <a id="tweetBtn" target="_blank" class="button tweet" href="#">Tweet score</a>
+
+        <a id="fbBtn" target="_blank" class="button fb" href="#">Post on FB</a>
+      </div>
+
+      <!-- Preloading image ;) -->
+      <img id="sprite" src="Cute puppy jump.png"/>
+
+      <div id="scoreBoard">
+        <p id="score">0</p>
+      </div>
+
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
